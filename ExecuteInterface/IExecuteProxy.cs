@@ -8,6 +8,6 @@ namespace ExecuteInterface
 {
     public interface IExecuteProxy
     {
-        void Execute(NameValueCollection Parameters);
+        void Execute(string DLLName, string TypeName, NameValueCollection Parameters);
     }
 }

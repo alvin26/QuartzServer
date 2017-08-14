@@ -86,19 +86,10 @@ namespace Quartz.Server
 			logger.Info("Scheduler started successfully");
 
 
-            ReloadJobFromDB();
+           
 
 		}
-
-
-        /// <summary>
-        /// re-load job from db
-        /// </summary>
-        void ReloadJobFromDB()
-        {
-            //JobExecutionContext
-        }
-
+         
 
         /// <summary>
         /// Stops this instance, delegates to scheduler.
